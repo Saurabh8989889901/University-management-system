@@ -1,1 +1,1 @@
-# University_management_system
+# University-management-system
