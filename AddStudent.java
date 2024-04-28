@@ -215,7 +215,6 @@ public class AddStudent extends JFrame implements ActionListener{
             String Branch = (String)cbbranch.getSelectedItem();
    
             try{
-                //String query = "insert into student values('"+name+"' , '"+fname+"' , '"+rollno+"' , '"+dob+"' , '"+lbladdress+"' , '"+lblphone+"' ,'"+lblemail+"', '"+lblx+"' , '"+lblxii+"', '"+lblaadhar+"' , '"+course+"' , '"+branch+"')";
                 String query = "insert into student values('"+Name+"' , '"+FName+"' , '"+Rollno+"' , '"+DOB+"' , '"+Address+"' , '"+Phone+"' ,'"+Email+"', '"+X+"' , '"+XII+"' , '"+Aadhar+"' , '"+Course+"' , '"+Branch+"')";
 
                 Conn con = new Conn();
